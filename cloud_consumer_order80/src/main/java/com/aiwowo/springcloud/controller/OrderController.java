@@ -12,7 +12,7 @@ public class OrderController {
     @Autowired
     private RestTemplate restTemplate;
 
-    public static final String URL = "http://localhost:8001";
+    public static final String URL = "http://CLOUD-PAYMENT-SERVICE";
 
     @GetMapping("/consumer/get/{id}")
     @ResponseBody
